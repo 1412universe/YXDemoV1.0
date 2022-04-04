@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/drawable/button_sahpe.xml" value="0.204" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/drawable/dialog_privacy_shape.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/drawable/shape_dot.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout-land/dialog_layout.xml" value="0.22916666666666666" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_act.xml" value="0.1956521739130435" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterby.xml" value="0.22" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterfl.xml" value="0.19701086956521738" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterfx.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_charactergui.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterhui.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterjian.xml" value="0.19701086956521738" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterjwz.xml" value="0.19927536231884058" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterlsq.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterlx.xml" value="0.19701086956521738" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_charactersn.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterxz.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characteryy.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterzf.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterzwz.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterzzf.xml" value="0.19701086956521738" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterzzw.xml" value="0.3333333333333333" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_friend.xml" value="0.19927536231884058" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_login_.xml" value="0.3333333333333333" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_main_.xml" value="0.22" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_main_play_.xml" value="0.10572916666666667" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_model.xml" value="0.3333333333333333" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_navigation1.xml" value="0.23822463768115942" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_navigation2.xml" value="0.22" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_navigation3.xml" value="0.21829710144927536" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_peak.xml" value="0.19202898550724637" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_phone_.xml" value="0.1983695652173913" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_primary.xml" value="0.25" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_reality.xml" value="0.1911231884057971" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_reality_.xml" value="0.19701086956521738" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_reality_main.xml" value="0.28004667444574094" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_register_.xml" value="0.16666666666666666" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_store.xml" value="0.1956521739130435" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_store_.xml" value="0.10572916666666667" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_train.xml" value="0.19202898550724637" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_train2.xml" value="0.13697916666666668" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_usr.xml" value="0.19202898550724637" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/bvp_layout.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/dailog_layout.xml" value="0.19927536231884058" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/dialog_layout.xml" value="0.1802536231884058" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/item.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/msg_item.xml" value="0.23822463768115942" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

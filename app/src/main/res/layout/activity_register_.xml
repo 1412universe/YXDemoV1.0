@@ -1,0 +1,98 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:descendantFocusability="beforeDescendants"
+    android:orientation="horizontal"
+    tools:context=".Register_Activity">
+
+    <EditText
+        android:id="@+id/et_registeractivity_username"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="100dp"
+        android:autofillHints="用户名"
+        android:background="@drawable/nametext"
+        android:clickable="true"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/et_registeractivity_password1"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="100dp"
+        android:autofillHints="密码"
+        android:background="@drawable/passwordtext"
+        android:clickable="true"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_registeractivity_username"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_registeractivity_password2"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/passwordtext"
+        android:clickable="true"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_registeractivity_password1"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/cb_agree"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="316dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/bt_registeractivity_register"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_sahpe"
+        android:onClick="onClickNext"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/et_registeractivity_password2"
+        app:layout_constraintTop_toBottomOf="@+id/et_registeractivity_password2"
+        app:layout_constraintVertical_bias="0.298"
+        tools:ignore="OnClick,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/RegisterView"
+        android:layout_width="333dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/welcome" />
+
+    <Button
+        android:id="@+id/Reg_Down"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/down"
+        app:layout_constraintEnd_toEndOf="@+id/cb_agree"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RegisterView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

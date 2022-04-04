@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/task_bg"
+    android:screenOrientation="landscape"
+    tools:context=".Train.Primary.Primary_Activity">
+
+    <LinearLayout
+        android:id="@+id/ll_layout"
+        android:layout_width="404dp"
+        android:layout_height="316dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="16dp"
+        android:background="#00000000"
+        android:clipChildren="false"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rw"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="221dp"
+            android:layout_height="281dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:clipChildren="false" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ReturnBtn"
+        android:layout_width="57dp"
+        android:layout_height="51dp"
+        android:background="@drawable/returnbtn"
+        android:onClick="onClickNext"
+        tools:ignore="MissingConstraints,OnClick"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="271dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_sahpe"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rw"
+        app:layout_constraintTop_toBottomOf="@+id/ll_layout" />
+
+    <ImageView
+        android:id="@+id/rw"
+        android:layout_width="238dp"
+        android:layout_height="402dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="47dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ll_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ReturnBtn"
+        app:layout_constraintVertical_bias="0.62"
+        app:srcCompat="@drawable/rw" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

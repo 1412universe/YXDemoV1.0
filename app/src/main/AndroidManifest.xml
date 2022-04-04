@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.brightinng">
+    <!-- 互联网 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 查看网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 网络请求权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Smarter"
+        android:roundIcon="@drawable/logo"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Navigation.Navigation_2"
+            android:exported="false" />
+        <activity
+            android:name=".Navigation.Navigation_1"
+            android:exported="false" />
+        <activity
+            android:name=".Friend.Friend_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Train.Primary.Primary_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Train.Train_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Train.Peak.Peak_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Train.Model.Model_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".RealityApply.character.gui.Charactergui"
+            android:exported="false" />
+        <activity
+            android:name=".RealityApply.character.lsq.Characterlsq"
+            android:exported="false" />
+        <activity
+            android:name=".RealityApply.character.yy.Characteryy"
+            android:exported="false" />
+        <activity
+            android:name=".RealityApply.character.fl.Characterfl"
+            android:exported="false" />
+        <activity
+            android:name=".RealityApply.character.fx.Characterfx"
+            android:exported="false" />
+        <activity
+            android:name=".RealityApply.character.jwz.Characterjwz"
+            android:exported="false" />
+        <activity
+            android:name=".RealityApply.character.xz.Characterxz"
+            android:exported="false" />
+        <activity
+            android:name=".RealityApply.character.zzw.Characterzzw"
+            android:exported="false" />
+        <activity
+            android:name=".RealityApply.character.hui.Characterhui"
+            android:exported="false" />
+        <activity
+            android:name=".RealityApply.character.sn.Charactersn"
+            android:exported="false" />
+        <activity
+            android:name=".RealityApply.character.lx.Characterlx"
+            android:exported="false" />
+        <activity
+            android:name=".RealityApply.character.zf.Characterzf"
+            android:exported="false" />
+        <activity
+            android:name=".RealityApply.character.jian.Characterjian"
+            android:exported="false" />
+        <activity
+            android:name=".RealityApply.character.by.Characterby"
+            android:exported="false" />
+        <activity
+            android:name=".RealityApply.Usr_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".RealityApply.RealityMain_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Main_Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Register_Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Login_Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SplashScreen_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

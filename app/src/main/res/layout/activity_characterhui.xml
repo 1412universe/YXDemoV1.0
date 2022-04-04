@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RealityApply.character.hui.Characterhui">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/train_hui"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        -
+
+        <FrameLayout
+            android:layout_width="234dp"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="49dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:onClick="onClickNext"
+                android:background="@drawable/train_jiantou" />
+
+
+        </FrameLayout>
+
+
+        -
+
+        <LinearLayout
+            android:layout_width="454dp"
+            android:layout_height="335dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/train_dajuxing"
+            android:orientation="vertical">
+
+
+            -
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/hbutton"
+                    android:layout_width="75dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/train_jianjie" />
+
+                <Button
+                    android:id="@+id/hbutton2"
+                    android:layout_width="75dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="38dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/train_fenxi" />
+
+                <Button
+                    android:id="@+id/hbutton3"
+                    android:layout_width="75dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="38dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/train_tubiao" />
+
+                <Button
+                    android:id="@+id/hbutton4"
+                    android:layout_width="75dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="38dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/train_daoru" />
+
+            </LinearLayout>
+
+
+            //id要改
+
+            <LinearLayout
+                android:id="@+id/h"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+<!--                //无人物介绍-->
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="434dp"
+                    android:layout_height="204dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/train_zifangjieshao"                          />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

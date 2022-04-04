@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/peak_bg"
+    android:screenOrientation="landscape"
+    tools:context=".Train.Peak.Peak_Activity">
+
+    <TextView
+        android:id="@+id/text123"
+        android:layout_width="637dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="74dp"
+        android:text="1、下列哪位是人工智能之父？（     ）"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/rg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="639dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="256dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595">
+
+        <RadioButton
+            android:id="@+id/rb_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A:Marniv Lee Minsky"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/rb_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B:HerbertA.Simon"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/rb_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C:Allen Newell"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/rb_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D:John Clifford Shaw"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/SubmitBtn"
+        android:layout_width="77dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="317dp"
+        android:layout_marginEnd="324dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button_sahpe"
+        android:onClick="onClickNext"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/LastBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/NextBtn"
+        android:layout_width="77dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="317dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button_sahpe"
+        android:onClick="onClickNext"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SubmitBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/LastBtn"
+        android:layout_width="77dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="317dp"
+        android:layout_marginEnd="524dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button_sahpe"
+        android:onClick="onClickNext"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

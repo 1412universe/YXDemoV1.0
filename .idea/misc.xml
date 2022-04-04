@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/drawable/dialog_privacy_shape.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/drawable/shape_dot.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/drawable/shape_dot_selected.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_character0.xml" value="0.1721014492753623" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_character1.xml" value="0.1721014492753623" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterfl.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterfl2.xml" value="0.19067028985507245" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterfx.xml" value="0.19067028985507245" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterfx2.xml" value="0.13697916666666668" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_characterzf.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_glory_.xml" value="0.11614583333333334" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_login_.xml" value="0.22" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_main_.xml" value="0.13697916666666668" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_main_play_.xml" value="0.19067028985507245" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_primary.xml" value="0.19067028985507245" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_reality_.xml" value="0.25" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_reality_main.xml" value="0.13697916666666668" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_register_.xml" value="0.3333333333333333" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_train.xml" value="0.19067028985507245" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_usr.xml" value="0.1" />
+        <entry key="..\:/TYUT/AYXZH/YXDemo/app/src/main/res/layout/activity_usr_.xml" value="0.18072916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

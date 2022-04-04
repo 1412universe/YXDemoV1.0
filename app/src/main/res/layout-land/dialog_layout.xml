@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/six"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="228dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/exitBtn"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:onClick="onclick"
+            android:text="退出"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_sahpe" />
+    </LinearLayout>
+</LinearLayout>
